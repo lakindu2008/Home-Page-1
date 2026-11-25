@@ -1,0 +1,102 @@
+body{
+    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, rgb(255, 97, 176) 100%);
+}
+
+/* head styles part */
+#head{
+    background: conic-gradient(from 135deg, oklch(56.69% 0.1406 261.56) 0.000% 25.000%, oklch(75.20% 0.0978 250.99) 25.000% 50.000%, oklch(66.14% 0.2053 353.50) 50.000% 75.000%, oklch(81.89% 0.1207 350.33) 75.000% 100.000%);
+    width: 98%;
+    height: 60px;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+}
+#head a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "poppins",sans-serif;
+    margin-left: 5%;
+;
+}
+#links{
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-left: -7%;
+}
+#buttons{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-left: 35%;
+    display: flex;
+}
+#buttons button{
+    border: none;
+    cursor: pointer;
+    width: 90px;
+    height: 40px;
+    border-radius: 30px;
+    font-family: "poppins",sans-serif;
+    margin-left: 5px;
+    background-color: rgb(111, 12, 131);
+    color: rgb(255, 254, 254);
+    margin-left: 5%;
+}
+#buttons button:hover{
+    font-family:monospace;
+    background-color: aliceblue;
+    color:black;
+    transition: 0.3s;
+}
+#head a:hover{
+    transition: 0.3s;
+    color: rgb(255, 176, 7);
+}
+#image1{
+    width: 30%;
+    border-radius: 150px;
+    margin-top: 6%;
+    margin-left: 6%;
+}
+#txt1{
+    color: rgb(223, 216, 216);
+    font-family: "poppins",sans-serif;
+    font-size: 50px;
+    position: absolute;
+    top: 17%;
+    left: 45%;
+    text-decoration:wavy;
+    font-weight: bold;
+}
+.description{
+    color: white;
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    font-family: "poppins",sans-serif;
+    top: 50%;
+}
+#start_btn{
+    border:none;
+    width: 10%;
+    height: 50px;
+    border-radius: 50px;
+    font-family: "poppins",sans-serif;
+    position: absolute;
+    left: 45%;
+    top: 70%;
+    color: white;
+    font-weight: bold;
+    background: conic-gradient(from 75deg, oklch(81.89% 0.1667 78.75) 0.000% 10.000%, oklch(79.72% 0.1609 68.54) 10.000% 20.000%, oklch(76.71% 0.1576 53.98) 20.000% 30.000%, oklch(74.41% 0.1571 39.65) 30.000% 40.000%, oklch(73.37% 0.1621 26.46) 40.000% 50.000%, oklch(73.04% 0.1689 13.50) 50.000% 60.000%, oklch(73.23% 0.1764 2.66) 60.000% 70.000%, oklch(74.19% 0.1778 354.60) 70.000% 80.000%, oklch(75.68% 0.1770 348.65) 80.000% 90.000%, oklch(76.77% 0.1754 344.70) 90.000% 100.000%);
+}
+#start_btn:hover{
+    background: conic-gradient(from 135deg, oklch(56.69% 0.1406 261.56) 0.000% 25.000%, oklch(75.20% 0.0978 250.99) 25.000% 50.000%, oklch(66.14% 0.2053 353.50) 50.000% 75.000%, oklch(81.89% 0.1207 350.33) 75.000% 100.000%);
+    transition: 0.4s;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px black;
+}
